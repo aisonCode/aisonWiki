@@ -5,10 +5,14 @@
 
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
+# for using Read the Docs theme
+import sphinx_rtd_theme
 
 project = 'aisonWiki'
 copyright = '2025, aison.li'
 author = 'aison.li'
+
+
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -23,5 +27,5 @@ language = 'zh'
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
